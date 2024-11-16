@@ -1,0 +1,68 @@
+/* 設置背景圖片 */
+body {
+  background-image: url('istockphoto-1201544779-612x612.jpg');
+  background-size: cover; /* 背景圖片自動調整大小以覆蓋整個容器 */
+  background-position: center; /* 圖片居中 */
+  background-repeat: no-repeat; /* 不重複顯示圖片 */
+  height: 100vh; /* 設定高度為視窗的高度 */
+  margin: 0;
+}
+
+/* 設置 .App 標題與內部元素的樣式 */
+.App {
+  text-align: center;
+  padding: 20px;
+  color: white; /* 設置文字顏色為白色，這樣能在背景圖片上清晰顯示 */
+}
+
+/* 主標題樣式 */
+h1 {
+  color: #fff; /* 白色標題 */
+}
+
+/* 標籤樣式 */
+label {
+  margin-right: 10px;
+  color: #fff; /* 標籤文字顏色為白色 */
+}
+
+/* 下拉選單樣式 */
+select {
+  padding: 5px;
+}
+
+/* 無序列表樣式 */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* 列表項樣式 */
+li {
+  background-color: rgba(244, 244, 244, 0.8); /* 半透明背景色，讓背景圖片略微顯現 */
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px; /* 圓角邊框 */
+}
+
+/* 小標題樣式 */
+h3 {
+  margin: 0;
+  color: #007bff; /* 藍色標題 */
+}
+
+/* 當選擇電影後，顯示詳細信息的樣式 */
+.movie-details {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* 半透明黑色背景以突顯詳細信息 */
+  border-radius: 10px;
+}
+
+.movie-details img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 20px;
+}
